@@ -1,0 +1,114 @@
+*{margin:0;
+padding: 0;
+box-sizing: border-box;}
+
+@font-face {
+    font-family: "Lobster-Regular" ;
+    src: url(/new1/assets/fonts/Lobster-Regular.ttf);
+}
+
+
+
+header{
+    width: 100%;
+    text-align: center;
+    color:#109E97;
+    font-size: 30px;
+    padding: 30px;
+    font-family: "Lobster-Regular";
+
+}
+main{
+    width: 100%;
+}
+p:nth-child(1){
+    margin-top: 15px;
+    
+}
+
+hr{margin: 10px;}
+
+.price{
+    color: green;
+    margin: 15px 0;
+    
+}
+.price sub{
+    color: red;
+}
+.image1{
+    display: block;
+}
+.box1{
+    width: 100%;
+    background-color: black;
+    padding-top:50px ;
+    color:white;
+    text-align: right;
+    font-size: 18px;
+    height: 250px;
+    
+    
+}
+.box1 h3{
+    padding-bottom: 8px;
+}
+table{
+    width: 100%;
+   
+}
+table caption{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+th{
+    padding: 20px;
+}
+td{
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+.box3{
+   text-align: center;
+    width: 250px;
+    height: 300px;
+}
+
+.p2{
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+button{
+    background-color: #109E97;
+    text-align: center;
+font-size: 15px;
+padding:10px;
+margin: 15px;
+}
+
+input{
+    border: 2px solid black;
+}
+ul{
+    margin: 40px;
+    list-style: none;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #109E97;
+}
